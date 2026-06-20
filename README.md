@@ -16,7 +16,7 @@ I am a full stack software engineer dedicated to building clean, secure, and hig
 
 - ⚡ **Focusing on**: React/Next.js, Node.js, Python, Rust, and Cloud Orchestration.
 - 🛠️ **Design Philosophy**: Interaction is key. I design fluid animations and interactive particle interfaces.
-- 🚀 **Personal Website**: Check out my [Animated Portfolio](https://codedemon777.github.io/CodeDemon777/)! (Hosted directly on this repository's GitHub Pages).
+- 🚀 **Personal Website**: Check out my [Animated Portfolio](https://profolio-gamma-puce.vercel.app/)! (Built using modern responsive architectures).
 
 ---
 
@@ -62,7 +62,7 @@ I am a full stack software engineer dedicated to building clean, secure, and hig
   <a href="https://github.com/CodeDemon777">
     <img src="https://img.shields.io/badge/GitHub-CodeDemon777-a855f7?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="#">
+  <a href="https://www.linkedin.com/in/harees-kumar/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-ec4899?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>

@@ -318,4 +318,52 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 1200);
         });
     }
+
+    // -----------------------------------------------------------------
+    // 7. Custom Lagging Neon Cursor Follower
+    // -----------------------------------------------------------------
+    const follower = document.querySelector('.cursor-follower');
+    const dot = document.querySelector('.cursor-dot');
+    
+    let cursorX = -100, cursorY = -100;
+    let followerX = -100, followerY = -100;
+    
+    window.addEventListener('mousemove', (e) => {
+        cursorX = e.clientX;
+        cursorY = e.clientY;
+        
+        // Make dot follow immediately (GPU accelerated)
+        if (dot) {
+            dot.style.left = '0';
+            dot.style.top = '0';
+            dot.style.transform = `translate3d(${cursorX}px, ${cursorY}px, 0) translate(-50%, -50%)`;
+        }
+    });
+
+    function animateCursorFollower() {
+        if (follower) {
+            // Smooth LERP animation for the ring
+            followerX += (cursorX - followerX) * 0.12;
+            followerY += (cursorY - followerY) * 0.12;
+            follower.style.left = '0';
+            follower.style.top = '0';
+            follower.style.transform = `translate3d(${followerX}px, ${followerY}px, 0) translate(-50%, -50%)`;
+        }
+        requestAnimationFrame(animateCursorFollower);
+    }
+    animateCursorFollower();
+
+    // Hover interactive scaling triggers
+    const interactiveSelectors = 'a, button, [data-tilt], .service-card, .form-input, .social-btn, .scroll-top-btn';
+    const interactiveElements = document.querySelectorAll(interactiveSelectors);
+    
+    interactiveElements.forEach(el => {
+        el.addEventListener('mouseenter', () => {
+            if (follower) follower.classList.add('hovered');
+        });
+        el.addEventListener('mouseleave', () => {
+            if (follower) follower.classList.remove('hovered');
+        });
+    });
 });
+

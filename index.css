@@ -1079,3 +1079,48 @@ a.info-value:hover {
         text-align: center;
     }
 }
+
+/* Custom Cursor follow animations */
+.cursor-follower {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--secondary);
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+    transition: width 0.3s cubic-bezier(0.16, 1, 0.3, 1), 
+                height 0.3s cubic-bezier(0.16, 1, 0.3, 1), 
+                background-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), 
+                border-color 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: 0 0 15px var(--secondary-glow);
+    mix-blend-mode: screen;
+}
+
+.cursor-dot {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: var(--cyan);
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    box-shadow: 0 0 8px var(--cyan);
+}
+
+.cursor-follower.hovered {
+    width: 60px;
+    height: 60px;
+    background-color: var(--secondary-glow);
+    border-color: var(--cyan);
+}
+
+/* Responsive cursor hide */
+@media (pointer: coarse) {
+    .cursor-follower, .cursor-dot {
+        display: none;
+    }
+}
+
