@@ -56,8 +56,8 @@ I am a full stack software engineer dedicated to building clean, secure, and hig
 ### 🤝 Connect with Me
 
 <p align="center">
-  <a href="mailto:codedemon777@example.com">
-    <img src="https://img.shields.io/badge/Email-codedemon777%40example.com-06b6d4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <a href="mailto:hareeskumar132@gmail.com">
+    <img src="https://img.shields.io/badge/Email-hareeskumar132%40gmail.com-06b6d4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://github.com/CodeDemon777">
     <img src="https://img.shields.io/badge/GitHub-CodeDemon777-a855f7?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
