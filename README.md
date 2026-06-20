@@ -1,52 +1,68 @@
-# CodeDemon777
+<p align="center">
+  <img src="banner.svg" alt="CodeDemon777 Banner" width="100%" />
+</p>
 
-Welcome to the official repository for **CodeDemon777**'s personal developer portfolio! This is a state-of-the-art, interactive, and visually stunning single-page portfolio built for modern web standards.
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=22&duration=3000&pause=1000&color=06B6D4&center=true&vCenter=true&width=435&lines=Full+Stack+Software+Engineer;Creative+UI%2FUX+Architect;DevOps+%26+Cloud+Enthusiast;Building+Next-Gen+Experiences" alt="Typing SVG" />
+  </a>
+</p>
 
-## 🚀 Features
+---
 
-- **Interactive Particle Background**: High-performance HTML5 `<canvas>` network responding to mouse movement (repelling particles) and connecting nearby nodes with ambient gradients.
-- **Hero Typing Effect**: Smooth custom typewriter subtitle showcasing core developer skill sets.
-- **Glassmorphic Service Cards**: Modern card styling utilizing translucent overlays (`backdrop-filter`) and border highlights.
-- **3D Interactive Tilt**: Immersive `scale3d` and custom coordinate rotation matrix on projects matching user mouse movement.
-- **Intersection Observer Entrances**: Delayed fade-in and slide-up animations triggering dynamically as elements scroll into view.
-- **Responsive Web Design**: Fluid layout adapting seamlessly to mobile, tablet, laptop, and 4K displays.
-- **Search Engine Optimization (SEO)**: Pre-configured search and metadata optimization for maximum discoverability.
+### 🔮 About Me
 
-## 🛠️ Tech Stack
+I am a full stack software engineer dedicated to building clean, secure, and highly optimized web interfaces. I specialize in merging technical engineering with design principles, resulting in web solutions that perform exceptionally under the hood and look breathtaking on the outside.
 
-- **Structure**: Semantic HTML5 markup
-- **Styles**: Vanilla CSS3 Custom Variables (HSL Color Space), Flexbox, CSS Grid
-- **Interactions**: Vanilla ES6+ Javascript (no external library overhead like jQuery or GSAP)
-- **Typography**: Google Fonts (Space Grotesk & Plus Jakarta Sans)
+- ⚡ **Focusing on**: React/Next.js, Node.js, Python, Rust, and Cloud Orchestration.
+- 🛠️ **Design Philosophy**: Interaction is key. I design fluid animations and interactive particle interfaces.
+- 🚀 **Personal Website**: Check out my [Animated Portfolio](https://codedemon777.github.io/CodeDemon777/)! (Hosted directly on this repository's GitHub Pages).
 
-## 📂 Project Structure
+---
 
-```
-├── index.html       # Webpage structure & SEO optimization
-├── index.css        # Animations, custom typography, dark-neon theme
-├── index.js         # Canvas particles, typewriter, card tilts, contact handlers
-└── README.md        # Project documentation
-```
+### 🛠️ Tech Stack
 
-## 🛠️ Local Development
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,py,django,rust,postgres,mongodb,redis,docker,aws,git,github" alt="My Tech Stack" />
+  </a>
+</p>
 
-To run this project locally, simply clone the repository and open `index.html` in your browser:
+---
 
-1. Clone this repository or open the folder:
-   ```bash
-   git clone https://github.com/CodeDemon777/CodeDemon777.git
-   ```
-2. Open `index.html` in any browser or launch it with a local server extension (e.g. Live Server in VS Code).
+### 📊 GitHub Activity & Metrics
 
-## 🌎 Deployment
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td valign="top" width="50%">
+      <img src="https://github-readme-stats.vercel.app/api?username=CodeDemon777&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050508&title_color=a855f7&text_color=9ca3af&icon_color=06b6d4" alt="CodeDemon777 GitHub Stats" width="100%" />
+    </td>
+    <td valign="top" width="50%">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodeDemon777&layout=compact&theme=tokyonight&hide_border=true&bg_color=050508&title_color=ec4899&text_color=9ca3af&icon_color=a855f7" alt="Top Languages" width="100%" />
+    </td>
+  </tr>
+</table>
 
-To push additions or changes to GitHub:
+---
 
-1. Link your remote repository (if not already done):
-   ```bash
-   git remote add origin https://github.com/CodeDemon777/CodeDemon777.git
-   ```
-2. Push your changes:
-   ```bash
-   git push -u origin main
-   ```
+### 🐍 Contribution Grid Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CodeDemon777/CodeDemon777/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake Grid" />
+</p>
+
+---
+
+### 🤝 Connect with Me
+
+<p align="center">
+  <a href="mailto:codedemon777@example.com">
+    <img src="https://img.shields.io/badge/Email-codedemon777%40example.com-06b6d4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/CodeDemon777">
+    <img src="https://img.shields.io/badge/GitHub-CodeDemon777-a855f7?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-ec4899?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
